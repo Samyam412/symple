@@ -1,5 +1,6 @@
 import "../../styles/sign-in/sign-in.css";
-import ChevronLeft from "./_icon/chevronLeft";
+import ChevronLeft from "./_icons/ChevronLeft";
+import IconCluster from "./IconCluster";
 import SearchBar from "./SearchBar";
 
 const SignInPage = () => {
@@ -13,6 +14,7 @@ const SignInPage = () => {
       </h1>
       <div className="search-bar-container">
         <SearchBar />
+        <IconCluster />
       </div>
     </section>
   );

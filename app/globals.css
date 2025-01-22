@@ -1,7 +1,7 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-  --icon-size: 3.5rem;
+  --icon-size: 3rem;
 }
 
 @media (prefers-color-scheme: dark) {
