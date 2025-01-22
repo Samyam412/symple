@@ -42,3 +42,10 @@
 .icon-cluster-icon:hover {
   transform: scale(110%);
 }
+
+.section-divider {
+  width: 22rem;
+  height: 22rem;
+  position: absolute;
+  top: 25%;
+}

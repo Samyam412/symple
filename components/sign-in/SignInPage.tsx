@@ -1,5 +1,6 @@
 import "../../styles/sign-in/sign-in.css";
 import ChevronLeft from "./_icons/ChevronLeft";
+import SectionDivider from "./_icons/SectionDivider";
 import IconCluster from "./IconCluster";
 import SearchBar from "./SearchBar";
 
@@ -14,6 +15,9 @@ const SignInPage = () => {
       </h1>
       <div className="search-bar-container">
         <SearchBar />
+        <div className="section-divider">
+          <SectionDivider />
+        </div>
         <IconCluster />
       </div>
       <h1 className="sign-in-title">Symple</h1>

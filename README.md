@@ -6,6 +6,6 @@
 [x]-build this page as if it exists among other pages, which means encapsulating logic / jsx into components / util functions
 [x]-put email address in a query parameter as you type
 [x]-icons scale up on hover (10%)
-[]-link to google.com, apple.com, facebook.com for those icons
-[]-the rest of the icons can be static
-[]-responsive
+[x]-link to google.com, apple.com, facebook.com for those icons
+[x]-the rest of the icons can be static
+[x]-responsive
