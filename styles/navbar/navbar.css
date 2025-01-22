@@ -1,0 +1,17 @@
+.main-nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+    padding: 1.25rem;
+}
+
+.symple-logo {
+  height: var(--icon-size);
+  width: var(--icon-size);
+}
+
+.user-icon {
+  height: var(--icon-size);
+  width: var(--icon-size);
+}
