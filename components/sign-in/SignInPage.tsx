@@ -16,6 +16,7 @@ const SignInPage = () => {
         <SearchBar />
         <IconCluster />
       </div>
+      <h1 className="sign-in-title">Symple</h1>
     </section>
   );
 };

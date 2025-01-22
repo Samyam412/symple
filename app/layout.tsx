@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/navbar/Navbar";
+import Footer from "@/components/footer/Footer";
 
 const poppins = Poppins({
   weight: ["100", "200", "400", "600"],
@@ -9,7 +10,7 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Kenzp Test",
+  title: "Kenzo Test",
   description: "I hope i pass",
 };
 
@@ -23,6 +24,7 @@ export default function RootLayout({
       <body className={`${poppins.className}`}>
         <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );

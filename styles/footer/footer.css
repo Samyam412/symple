@@ -1,0 +1,22 @@
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 2rem;
+  text-align: center;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: #8f8f8f;
+  font-family: inherit;
+  font-weight: 100;
+}
+
+.footer-icon {
+  height: var(--icon-size);
+  width: var(--icon-size);
+  position: relative;
+  left: 98%;
+}
