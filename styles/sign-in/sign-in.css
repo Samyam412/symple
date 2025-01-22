@@ -11,10 +11,10 @@
 
 .sign-in-chevron {
   position: absolute;
-  height: 2.5rem;
-  width: 2.5rem;
-  left: 20;
-  top: 0;
+  height: var(--icon-size);
+  width: var(--icon-size);
+  left: 20px;
+  top: -40px;
 }
 
 .search-bar-container {
