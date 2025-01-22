@@ -1,5 +1,6 @@
 import "../../styles/sign-in/sign-in.css";
 import ChevronLeft from "./_icon/chevronLeft";
+import SearchBar from "./SearchBar";
 
 const SignInPage = () => {
   return (
@@ -10,6 +11,8 @@ const SignInPage = () => {
         </span>
         Sign In
       </h1>
+
+      <SearchBar />
     </div>
   );
 };
