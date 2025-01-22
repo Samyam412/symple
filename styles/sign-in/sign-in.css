@@ -2,3 +2,18 @@
   height: 100dvh;
   width: 100dvw;
 }
+
+.sign-in-title {
+  font-size: 4.5rem;
+  font-weight: 100;
+  text-align: center;
+  position: relative;
+}
+
+.sign-in-chevron {
+  position: absolute;
+  height: 2.5rem;
+  width: 2.5rem;
+  left: 20;
+  top: 0;
+}
