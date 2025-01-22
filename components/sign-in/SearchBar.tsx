@@ -2,6 +2,7 @@
 
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import { useEffect, useState } from "react";
+import "../../styles/sign-in/search-bar.css"
 
 const SearchBar = () => {
   const [email, setEmail] = useState<string>("");
@@ -27,7 +28,7 @@ const SearchBar = () => {
 
   return (
     <div className="email-input-container">
-      <div className="search-icon">@</div>
+      <div className="search-icon ">@</div>
       <input
         type="email"
         placeholder="Email"

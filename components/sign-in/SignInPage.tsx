@@ -4,16 +4,17 @@ import SearchBar from "./SearchBar";
 
 const SignInPage = () => {
   return (
-    <div className="sign-in-body">
+    <section className="sign-in-body">
       <h1 className="sign-in-title">
         <span className="sign-in-chevron">
           <ChevronLeft />
         </span>
         Sign In
       </h1>
-
-      <SearchBar />
-    </div>
+      <div className="search-bar-container">
+        <SearchBar />
+      </div>
+    </section>
   );
 };
 
